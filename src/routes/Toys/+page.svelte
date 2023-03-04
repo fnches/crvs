@@ -3,27 +3,6 @@
 
 	export let data: PageData
 
-//from algo-etc
-
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/algorand_black.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte + Algorand</title>
-    <script type="module">
-    import { Buffer } from 'buffer'
-    window.Buffer = Buffer
-    </script>
-
-<body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-</body>
-
-
-
-
-	//end alt-etc
-
 	$: ({ articles } = data)
 </script>
 
@@ -54,4 +33,3 @@
 		<button type="submit">Add Article</button>
 	</form>
 </div>
-
